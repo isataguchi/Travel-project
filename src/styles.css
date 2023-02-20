@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #272044;
 }
 
 .container {
@@ -27,7 +28,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 400;
   line-height: 1.5;
   color: white;
@@ -67,20 +68,44 @@ main {
 }
 
 main h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 0;
+}
+main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   color: #272044;
+  margin: 0;
 }
 
 main h4 {
+  font-size: 24px;
   font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+  color: #272044;
+}
+main h5 {
   font-size: 16px;
+  font-weight: 700;
   line-height: 24px;
   letter-spacing: 5px;
   color: #272044;
   opacity: 0.3;
+  margin: 0;
 }
+
+main h6 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
   font-weight: 400;
   font-size: 16px;
@@ -143,6 +168,7 @@ footer a:hover {
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .grid {
@@ -153,15 +179,63 @@ footer a:hover {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+.secondary {
+  background: #f8f8f8;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-header {
+  margin: 0;
+  padding: 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  border: none;
+  background-color: white;
+  padding: 0 30px 30px;
+}
+
+.btn-learn-more {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  padding: 16px;
+  background: #462cb3;
+  transition: all 150ms ease-in-out;
+}
+
+main a {
+  text-decoration: none !important;
+}
+
+main a:hover {
+  color: #462cb3;
+  background: rgba(207, 207, 207, 0.5);
 }
 
 @media (max-width: 960px) {
