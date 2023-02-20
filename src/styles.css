@@ -187,6 +187,16 @@ footer a:hover {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card-header.grid {
+  gap: 0;
+}
+
+.embed {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -238,7 +248,7 @@ main a:hover {
   background: rgba(207, 207, 207, 0.5);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   header {
     padding: 50px 0;
   }
@@ -262,5 +272,12 @@ main a:hover {
 
   section {
     padding: 30px 0;
+  }
+  .card-header img {
+    display: none;
+  }
+.embed {
+    aspect-ratio: 16/9;
+    }
   }
 }
