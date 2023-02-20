@@ -266,6 +266,9 @@ main a:hover {
     padding: 10px 24px;
   }
 
+  
+  main {padding: 30px;}
+
   .grid {
     grid-template-columns: 1fr;
   }
@@ -275,9 +278,10 @@ main a:hover {
   }
   .card-header img {
     display: none;
-  }
-.embed {
+  } 
+  .embed {
     aspect-ratio: 16/9;
     }
   }
+
 }
